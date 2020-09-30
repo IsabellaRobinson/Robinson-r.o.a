@@ -36,5 +36,67 @@
 }
 
 .textUnderSkill {
-    display: flex;
+    margin-top: 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+
+.packageImg {
+    margin-left: 10vh;
+}
+.packageImg img {
+    height: 150px;
+    padding: 10px;
+}
+
+/* THE MODAL */
+  /* The modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.603); /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: rgb(194, 212, 229);
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #030202;
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #myBtn, #myBtn2, #myBtn3 {
+      background-color: rgba(155, 202, 224, 0.26);
+      border: rgba(224, 168, 14, 0.233) 2px solid;
+  }
+
+  /* MODAL TEXT */
+  .pakkeLøsning{
+    font-family: 'Hind Siliguri', sans-serif;
+      
+  }

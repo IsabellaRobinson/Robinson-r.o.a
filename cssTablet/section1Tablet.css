@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1150px) {
+
+    .mainContent {
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    
+    .heroImage img {
+        height: 400px;
+        margin-top: 2em;
+    }
+    
+    
+    /* OVERSKRIVER MED "UNDER"OVERSKRIFTER*/
+
+    
+    .textUnderSkill {
+        margin-top: 5em;
+    }
+    
+    .packageImg {
+        margin-left: 15vh;
+    }
+
+    #myBtn, #myBtn2 {
+        margin-bottom: 30px;
+    }
+    .packageImg img {
+        height: 150px;
+        padding: 10px;
+    }
+     
+}
