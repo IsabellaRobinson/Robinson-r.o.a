@@ -2,6 +2,14 @@
 @import "./header-nav-footer.css";
 @import "./section1.css";
 
+/* TABLET IMPORT */
+@import "../cssTablet/header-nav-footerTablet.css";
+@import "../cssTablet/section1Tablet.css";
+
+/* MOBIL IMPORT */
+@import "../cssMobile/header-nav-footer.css";
+@import "../cssMobile/section1Mobile.css";
+
 body {
 margin: 0;
 padding: 0;

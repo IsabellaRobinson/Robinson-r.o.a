@@ -6,7 +6,9 @@
     }
     
     .heroImage {
-        width: 100%;
+        width: 90%;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     
     .heroImage img {

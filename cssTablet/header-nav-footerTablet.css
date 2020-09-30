@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1150px) {
+    /* HEADER & NAVIGATION */
+    
+    .navigation {
+        background-color: rgb(224, 235, 245);
+    }
+    
+    .navigation a{
+        margin-left: 3%;
+        margin-right: 3%;
+        text-decoration: none;
+        color: rgb(185, 131, 61);
+        font-size: x-large;
+    }
+    
+    
+    .navigation a:nth-child(5) {
+        margin-left: 0px;
+    }
+      
+    
+    
+      /* LOGO */
+    .logo {
+        display: inline;
+    }
+    
+    .logo img {
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 25%;
+        border-radius: 50px 20px 50px 0px;   
+        border: rgb(199, 221, 241) 2px solid;
+    
+    }
+    }
