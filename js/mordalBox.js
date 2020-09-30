@@ -34,3 +34,5 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+// export default modal;
