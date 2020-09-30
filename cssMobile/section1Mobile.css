@@ -7,8 +7,8 @@
     
     .heroImage {
         width: 90%;
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 1vh;
+        margin-right: 1vh;
     }
     
     .heroImage img {
@@ -19,10 +19,6 @@
     
     
     /* OVERSKRIVER MED "UNDER"OVERSKRIFTER*/
-    .skill {
-        margin-left: 4px;
-        margin-right: 4px;
-    }
     
     .pakker{
         font-size: 60px;
@@ -43,7 +39,7 @@
     }
 
     .packageImg img {
-        height: 50px;
+        height: 10vh;
     }
     
 
