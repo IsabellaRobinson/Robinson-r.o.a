@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Source+Sans+Pro:wght@300&display=swap');
 @import "./header-nav-footer.css";
 @import "./section1.css";
 
@@ -9,7 +9,7 @@ display: border-box;
 font-family: 'Source Sans Pro', sans-serif;
 }
 
-
+/* SCROLLBAR */
 /* width scrollbar */
 ::-webkit-scrollbar {
     width: 20px;
