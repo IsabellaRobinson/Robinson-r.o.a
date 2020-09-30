@@ -1,0 +1,49 @@
+
+/* HEADER & NAVIGATION */
+header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+}
+.navigation {
+    background-color: rgb(224, 235, 245);
+}
+
+.navigation a{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-decoration: none;
+    color: rgb(185, 131, 61);
+    font-size: x-large;
+}
+
+.navigation a:hover{
+    color: rgb(224, 168, 14);
+}
+
+.navigation a:nth-child(3) {
+  margin-left: -50px;
+  margin-right: 100px;
+}
+
+.navigation a:nth-child(5) {
+    margin-left: 120px;
+    margin-right: 0px;
+}
+  
+
+
+  /* LOGO */
+.logo {
+    display: inline;
+}
+
+.logo img {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 25%;
+    border-radius: 50px 20px 50px 0px;   
+    border: rgb(199, 221, 241) 2px solid;
+
+}
+
