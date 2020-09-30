@@ -5,6 +5,8 @@ header {
     width: 100%;
     position: fixed;
 }
+
+
 .navigation {
     background-color: rgb(224, 235, 245);
 }
@@ -22,12 +24,12 @@ header {
 }
 
 .navigation a:nth-child(3) {
-  margin-left: -50px;
+  margin-left: -100px;
   margin-right: 100px;
 }
 
 .navigation a:nth-child(5) {
-    margin-left: 120px;
+    margin-left: 150px;
     margin-right: 0px;
 }
   
