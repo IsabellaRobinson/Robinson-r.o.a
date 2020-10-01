@@ -5,9 +5,14 @@
         padding-right: 2em;
     }
     
+/* HEROPIC WITH FEATHER */
     .heroImage img {
         height: 400px;
         margin-top: 2em;
+    }
+
+    .feather img {
+        display: none;
     }
     
     

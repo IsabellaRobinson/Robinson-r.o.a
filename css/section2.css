@@ -1,0 +1,40 @@
+.aboutPicAndText {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 45vh;
+}
+
+.whoAreWe {
+    margin-top: 0vh;
+}
+
+.aboutPicAndText {
+    margin-top: 10vh;
+}
+.aboutPicAndText img {
+    width: 50vh;
+    margin: 2vh;
+    border: rgb(224, 235, 245) 5px solid;
+    margin-bottom: -20vh;
+}
+
+.aboutName {
+    margin-left: -10vh;
+}
+
+.aboutWho {
+    margin-right: 15vh;
+}
+
+.aboutText {
+    margin-right: 2vh;
+}
+
+.featherAbout {
+margin-left: -10vh;
+    margin-top: -52vh;
+}
+.featherAbout img {
+    height: 15vh;
+    transform: scaleX(-1)
+}
