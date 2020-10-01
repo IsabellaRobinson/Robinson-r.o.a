@@ -2,7 +2,7 @@
 @media only screen and (max-width: 800px) {
 
 .aboutPicAndText {
-    grid-template-rows: 16vh 23vh 16vh;
+    grid-template-rows: 17vh 25vh 16vh;
     grid-template-columns: 20vh 1fr;
 }
 
@@ -12,8 +12,7 @@
 
 
 .aboutPicAndText img {
-    width: 10vh;
-    padding: 2vh;
+    width: 15vh;
     grid-column: 1;
 }
 
@@ -26,10 +25,26 @@
 .featherAbout {
     margin-left: -1vh;
     margin-top: -20vh;
+    position: absolute;
 }
 .featherAbout img {
-    height: 5vh;
+    height: 7vh;
     transform: scaleX(-1)
+}
+
+.featherAbout2 {
+    display: grid;
+    grid-row: 2;
+    margin-top: 11vh;
+    margin-left: 5em;
+    position: absolute;
+
+}
+
+.featherAbout2 img {
+    height: 7vh;
+    width: auto;
+    border: none;
 }
 
 }

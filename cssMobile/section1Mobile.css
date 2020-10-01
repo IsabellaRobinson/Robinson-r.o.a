@@ -19,16 +19,12 @@
     }
 
     .feather img{
-        height: 10vh;
         margin-right: 1vh;
         display: inline;
     }
     
     
     /* OVERSKRIVER MED "UNDER"OVERSKRIFTER*/
-    .skill {
-        margin-left: 15vh;
-    }
     
     .pakker, .aboutName{
         font-size: 60px;
