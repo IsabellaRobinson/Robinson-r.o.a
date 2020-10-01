@@ -19,6 +19,7 @@
     }
 
     .feather img{
+        height: 10vh;
         margin-right: 1vh;
         display: inline;
     }
@@ -33,7 +34,7 @@
     
     .tilbyde{
         font-size: large;
-        margin-top: 17vh;
+        margin-top: 6em;
         margin-left: 2vh;
     }
     
