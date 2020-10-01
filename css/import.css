@@ -6,10 +6,12 @@
 /* TABLET IMPORT */
 @import "../cssTablet/header-nav-footerTablet.css";
 @import "../cssTablet/section1Tablet.css";
+@import "../cssTablet/section2Tablet.css";
 
 /* MOBIL IMPORT */
 @import "../cssMobile/header-nav-footer.css";
 @import "../cssMobile/section1Mobile.css";
+@import "../cssMobile/section2Mobile.css";
 
 body {
 margin: 0;

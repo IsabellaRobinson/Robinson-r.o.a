@@ -1,8 +1,9 @@
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
 
-    .mainContent {
-        padding-left: 5px;
-        padding-right: 5px;
+    .mainContent, .about {
+        width: 100%;
+        padding-left: 2vh;
+        padding-right: 2vh;
     }
 /* HEROPIC WITH FEATHER */
     .heroImage {
@@ -29,14 +30,15 @@
         margin-left: 15vh;
     }
     
-    .pakker{
+    .pakker, .aboutName{
         font-size: 60px;
         font-weight: normal;
     }
     
     .tilbyde{
         font-size: large;
-        margin-top: 15vh;
+        margin-top: 17vh;
+        margin-left: 2vh;
     }
     
     .textUnderSkill {
@@ -61,7 +63,7 @@
         width: 70%;
       }
       
-      #myBtn, #myBtn2, #myBtn3 {
+      #myBtn, #myBtn2, #myBtn3, #myBtn4 {
           background-color: rgba(155, 202, 224, 0.26);
           border: rgba(224, 168, 14, 0.233) 2px solid;
       }

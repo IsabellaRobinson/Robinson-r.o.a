@@ -1,0 +1,35 @@
+
+@media only screen and (max-width: 800px) {
+
+.aboutPicAndText {
+    grid-template-rows: 16vh 23vh 16vh;
+    grid-template-columns: 20vh 1fr;
+}
+
+.whoAreWe {
+    margin-left: 0;
+}
+
+
+.aboutPicAndText img {
+    width: 10vh;
+    padding: 2vh;
+    grid-column: 1;
+}
+
+.aboutWho{
+    font-size: large;
+    margin-top: 13vh;
+    margin-left: 2vh;
+}
+
+.featherAbout {
+    margin-left: -1vh;
+    margin-top: -20vh;
+}
+.featherAbout img {
+    height: 5vh;
+    transform: scaleX(-1)
+}
+
+}
