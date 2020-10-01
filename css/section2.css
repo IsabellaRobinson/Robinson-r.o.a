@@ -42,3 +42,7 @@ margin-left: -10vh;
     height: 15vh;
     transform: scaleX(-1)
 }
+
+.featherAbout2 {
+    display: none;
+}
