@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1150px) {
+
+.aboutPicAndText {
+    grid-template-rows: 20vh;
+    margin-top: 4em;
+}
+
+.whoAreWe {
+    justify-content: center;
+    /* margin-left: 20vh; */
+}
+
+.aboutPicAndText img {
+    width: 20vh;
+    margin-bottom: -20vh;
+}
+
+.aboutWho {
+    margin-right: 0vh;
+    margin-top: 14vh;
+}
+
+.aboutName {
+    margin-left: 0;
+}
+
+.aboutText {
+    margin-right: 2vh;
+}
+
+.featherAbout {
+    margin-left: -1vh;
+    margin-top: -8vh;
+}
+.featherAbout img {
+    height: 6vh;
+    transform: scaleX(-1)
+}
+}

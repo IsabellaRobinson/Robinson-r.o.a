@@ -24,6 +24,10 @@
 
 .aboutWho {
     margin-right: 15vh;
+    width:auto;
+    font-size: xx-large;
+    margin-top: 25vh;
+    z-index: 0;
 }
 
 .aboutText {

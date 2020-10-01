@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1150px) {
 
-    .mainContent {
+    .mainContent, .about {
         padding-left: 2em;
         padding-right: 2em;
     }
@@ -18,18 +18,27 @@
     
     /* OVERSKRIVER MED "UNDER"OVERSKRIFTER*/
 
-    
+    .skill {
+        justify-content: center;
+    }
+
     .textUnderSkill {
         margin-top: 5em;
     }
     
+    .tilbyde {
+        margin-left: 4vh;
+        margin-top: 17vh;
+    }
+    
     .packageImg {
-        margin-left: 15vh;
+        margin-left: 1vh;
     }
 
-    #myBtn, #myBtn2 {
+    #myBtn, #myBtn2, #myBtn3, #myBtn4 {
         margin-bottom: 30px;
     }
+
     .packageImg img {
         height: 150px;
         padding: 10px;
