@@ -1,4 +1,4 @@
-.mainContent, .about {
+.mainContent, .about, .sectionContact {
     padding-left: 5em;
     padding-right: 5em;
 }
@@ -29,14 +29,14 @@
 }
 
 /* HEADLINES WITH "UNDER"HEADLINES*/
-.skill, .whoAreWe {
+.skill, .whoAreWe, .contact {
     display: flex;
     justify-content: center;
     margin-left: 9vh;
 }
 
 
-.pakker, .aboutName{
+.pakker, .aboutName {
     font-size: 120px;
     font-weight: normal;
     color:  #76386b1a;

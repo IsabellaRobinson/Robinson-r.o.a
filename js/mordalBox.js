@@ -35,4 +35,15 @@ window.onclick = function(event) {
     }
 }
 
-// export default modal;
+
+let InputTextBtnElements = document.querySelectorAll(".lable-text-box");
+let bikeOverlay = document.getElementById("bikeOverlay");
+let maphover = document.querySelector(".contact-form-map-container")
+
+
+for (let i = 0; i < InputTextBtnElements.length; i++) {
+    InputTextBtnElements[i].addEventListener("click", function() {
+        bikeOverlay.classList.add("hidden");
+    });
+
+}
