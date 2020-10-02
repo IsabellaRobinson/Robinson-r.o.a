@@ -1,7 +1,7 @@
 .aboutPicAndText {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 45vh;
+    grid-template-rows: 45vh 50vh;
 }
 
 .whoAreWe {
@@ -35,7 +35,9 @@
 }
 
 .featherAbout {
-margin-left: -10vh;
+    /* position: fixed; */
+    z-index: 1;
+    margin-left: -10vh;
     margin-top: -52vh;
 }
 .featherAbout img {
