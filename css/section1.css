@@ -39,7 +39,7 @@
 .pakker, .aboutName {
     font-size: 120px;
     font-weight: normal;
-    color:  #76386b1a;
+    color: rgba(185, 131, 61, 0.137) ;
     border-bottom: rgb(185, 131, 61) 2px solid;
     position: absolute;
 }

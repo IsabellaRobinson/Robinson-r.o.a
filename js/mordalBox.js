@@ -1,6 +1,4 @@
-// Get the modal
 var modal = document.getElementById("myModal");
-
 
 // Get the button that opens the modal
 var btn = document.getElementById("myBtn");
@@ -45,5 +43,4 @@ for (let i = 0; i < InputTextBtnElements.length; i++) {
     InputTextBtnElements[i].addEventListener("click", function() {
         bikeOverlay.classList.add("hidden");
     });
-
 }
