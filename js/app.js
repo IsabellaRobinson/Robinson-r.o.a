@@ -1,1 +1,1 @@
-import modal from "./mordalBox.js";
+import modalbox from "..js/mordalBox.js";

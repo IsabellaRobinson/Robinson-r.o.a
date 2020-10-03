@@ -1,8 +1,8 @@
 .kontakt {
-    margin-top: 50vh;
+    margin-top: 70vh;
     font-size: 120px;
     font-weight: normal;
-    color:  #76386b1a;
+    color: rgba(185, 131, 61, 0.137) ;
     border-bottom: rgb(185, 131, 61) 2px solid;
     position: absolute;
 }
@@ -10,36 +10,12 @@
 .mereInfo {
     width:auto;
     font-size: xx-large;
-    margin-top: 59vh;
+    margin-top: 79vh;
     z-index: 0;
     margin-left: 5vh;
 }
 
 /* contact */
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 10px;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
-
-input[type=submit] {
-    background-color: #4caf4fd3;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-
 .contactContainer {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -54,6 +30,17 @@ input[type=submit]:hover {
     padding: 50px;
 }
 
+.container img {
+    width: 10vh;
+    margin-right: 3vh;
+}
+
+.email, .phone, .home {
+    display: flex;
+    margin-bottom: 8vh;
+    margin-left: 3vh;
+    /* justify-content: space-evenly; */
+}
 /* soMe */
 .soMe {
     display: flex;
@@ -98,8 +85,18 @@ input[type=submit]:hover {
       grid-row: 1;
       grid-column: 2;
       margin-left: 9vh;
-      
+      transition: transform .11s;
+    }
+
+    .maps img:hover {
+        transform: scale(1.4);
     }
     .maps img {
     width: 100%;
+    opacity: 70%;
+    border: rgb(224, 235, 245) 5px solid;
+  }
+
+  .maps img:hover {
+     opacity: 1;
   }
